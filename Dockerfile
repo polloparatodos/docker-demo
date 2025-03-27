@@ -3,7 +3,7 @@
 FROM python:3.12-slim-bookworm
 
 # Directory which the application will run from (This should be the root of your project directory)
-WORKDIR /ci_cd_presentation
+WORKDIR .
 
 # Copying requirements file into the container dot (.) indicates all
 # requirements listed within the file
