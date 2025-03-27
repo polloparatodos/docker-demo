@@ -45,7 +45,7 @@ Note: There are MANY ways to go about building and running a container, so we wi
 
 1. Modify the `.github/workflows/docker.yml` file and change the build command to whatever you ended up using. You are encouraged to try and break and subsequently fix the issue so you can see how GitHub Actions work!
 2. Once you've played with how the build command works, try and add a run or exec command as well
-3. Push your changes to your remote and trigger the github workflow by going to Actions -> 'Docker Image CI' -> Run workflow
+3. Push your changes to your remote and trigger the github workflow by going to Actions &#8594; 'Docker Image CI' &#8594; Run workflow
 4. Modify the Actions workflow file and add a new event on a line above or below `workflow_dispatch` named `push:`
    * Your change should look like the following:
    ```
