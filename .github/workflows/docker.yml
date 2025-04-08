@@ -12,4 +12,4 @@ jobs:
     - name: Build the Docker image
       run: |
         echo "Hello, World!"
-        # docker build --file Dockerfile . --no-cache -t docker-demo
+        #docker build --file Dockerfile . --no-cache -t docker-demo
