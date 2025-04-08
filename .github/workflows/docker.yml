@@ -3,8 +3,6 @@ name: Docker Image CI
 on:
   workflow_dispatch:
   push:
-    branches:
-    - Dockerfile-chris-jantzen
 
 jobs:
   build:
