@@ -13,3 +13,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Adding all project files to container
 COPY . .
+
+# Expose the application to the point which it will run on (MUST BE A VALID PORT)
+EXPOSE 8080
+
+# Define which applications to run project on
+CMD ["python","src/cli_calculator.py"]

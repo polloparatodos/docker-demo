@@ -2,6 +2,9 @@ name: Docker Image CI
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+    - Dockerfile-chris-jantzen
 
 jobs:
   build:
@@ -11,4 +14,4 @@ jobs:
     - name: Build the Docker image
       run: |
         echo "Hello, World!"
-        #docker build --file Dockerfile . --no-cache -t docker-demo
+        docker build --file Dockerfile . --no-cache -t docker-demo
