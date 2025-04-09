@@ -53,7 +53,7 @@ Note: There are MANY ways to go about building and running a container, so we wi
      workflow_dispatch:
      push:
    ```
-5. Once you're happy with your changes, submit a PR to the parent repo from your fork with a Dockerfile in the following format: `Dockerfile-githubusername`
+5. Once you're happy with your changes, submit a PR to the parent repo from your fork with only a Dockerfile in the following format: `Dockerfile-githubusername`
 
 ## Troubleshooting
 
