@@ -17,4 +17,4 @@ jobs:
     
     - name: Run Docker container
       run: |
-        gh repo create
+        docker run cli_calculator.py
